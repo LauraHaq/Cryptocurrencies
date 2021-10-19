@@ -10,7 +10,7 @@ Purpose of this project is to assist a client to possibly offer a new investment
   - python
 
 ## Results
-Above csv file loaded 1,252 rows of data as seen below using shape() function. Then after Data Selection of current cryptocurrencies that "Is Trading" the data decresed to 1,144 rows of data.
+Above csv file loaded 1,252 rows of data as seen below using shape() function. Then after Data Selection of current cryptocurrencies that "Is Trading" the data decresed to 1,144 rows of data.  
 ![img](https://github.com/LauraHaq/Cryptocurrencies/blob/main/initial_dataframe2.png)
 
 After continued data cleaning by dropping row with null values using the dropna() function and keeping rows were "TotalCoinsMined" was greater than zero the final row count to be used is 532. Then, to be able to create clusters through algorithms need get_dummies() function used on features with text as values. With this new dataframe fit_transform() function was used to standardize the size of values for ease. 
